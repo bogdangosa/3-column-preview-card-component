@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #fff;
+}
+
+main{
+    display: flex;
+    position: relative;
+    top: 15vh;
+    left: 15vw;
+    height: 70vh;
+    width: 70vw;
+}
+
+.Container{
+    padding: 3rem;
+    
+}
+
+.Title{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-top: 1rem;
+    text-transform: uppercase;
+}
+.Text{
+    padding-top: 2rem;
+}
+
+.Container1{
+    background-color: #e38826;
+    border-radius: 0.5rem 0 0 0.5rem;
+    
+}
+
+.Container2{
+    background-color: #006970;
+}
+
+.Container3{
+    background-color: #004241;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.icon-car{
+    width: 30%;
+}
+
+.Button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    border: 3px solid #fff;
+    padding: 0.7rem 1.5rem;
+    margin-top: 6rem;
+    border-radius: 5rem;
+    width: fit-content;
+    transition: 1s;
+}
+.Button1{
+    color: #e38826;
+}
+.Button2{
+    color: #006970;
+}
+.Button3{
+    color: #004241;
+}
+
+
+.Button:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+
+.attribution{
+    color: #000;
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    text-align: center;
+}
+.attribution a{
+    text-decoration: none;
+    color: #a256d0;
+}
+
+
+@media(max-width:700px){
+    body{
+        position: relative;
+        height:auto;
+        padding-bottom: 15vh;
+    }
+    main{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 15vh;
+    }
+
+    .Container1{
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+
+    .Container3{
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+
+
+}
